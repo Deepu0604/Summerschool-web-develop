@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+    
+    <div class="container">
+        <h2>InstiOLX</h2>
+        <h3>Sell Your Item</h3>
+        <form>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="number" id="price" name="price" required>
+            </div>
+            <div class="form-group">
+                <label for="buying-date">Buying Date</label>
+                <input type="date" id="buying-date" name="buying-date" required>
+            </div>
+            <div class="form-group">
+                <label for="buying-price">Buying Price</label>
+                <input type="number" id="buying-price" name="buying-price" required>
+            </div>
+            <div class="form-group">
+                <label for="photos">Upload Multiple Photos</label>
+                <input type="file" id="photos" name="photos" multiple required>
+            </div>
+            <div class="form-group">
+                <label for="details">Your Details</label>
+                <input type="text" id="details" name="details" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Post</button>
+            </div>
+        </form>
+    </div>
+</body>
+    <title>InstiOLX Sell</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+            background-color: #1fbc2c;
+            margin: 35px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10%;
+        }
+        .container {
+            background-color: #fbfafa;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(52, 41, 41, 0.975);
+            width: 600px;
+        }
+        .container h2 {
+            padding-bottom: 30px;
+            text-align: left;
+            margin-bottom: auto;
+            text-decoration-color: #1fbc2c;
+
+        }
+        
+        .container h3 {
+            width: 500px;
+            margin-bottom: 50px;
+
+        }
+        .form-group {
+            margin-bottom: 25px;
+            width: 100%;
+            max-width: 590px;
+            border: #0fa51b;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 3px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1% solid #b3afaf;
+            border-radius: 4px;
+        }
+        .form-group input[type="file"] {
+            padding: 5px ;
+        }
+        .form-group button {
+            width: 103%;;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #086a1e;
+        }
+        .scrollbar{
+            scroll-behavior:var(#060419);
+        }
+    </style>
+        </head>
+</html>
